@@ -108,7 +108,7 @@ const Index = ({ highlightedLink }) => {
               {resolvedTheme === 'dark' ? <BsMoonStarsFill /> : <FiSun />}
             </div>
             <a
-              href="mailto:contact@sauravmh.com"
+              href="mailto:hpkaushik121@gmail.com"
               className="cursor-pointer flex sm:hidden text-lg p-2 rounded-md text-darkColor bg-blue-100 hover:bg-blue-200 dark:text-white dark:hover:bg-[#333] dark:border dark:border-[#444] dark:shadow-sm dark:bg-buttonDark dark:bg-opacity-60 dark:hover:bg-opacity-20"
             >
               <HiOutlineMailOpen className="text-2xl" />

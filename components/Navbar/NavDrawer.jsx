@@ -21,15 +21,10 @@ const NavDrawer = ({ open, toggleDarkMode, resolvedTheme, setOpen }) => {
 
   const socialLinks = [
     {
-      icon: <AiOutlineInstagram />,
-      href: 'https://www.instagram.com/sauravv_404/',
-    },
-    {
       icon: <AiOutlineLinkedin />,
-      href: 'https://www.linkedin.com/in/sauravmh/',
+      href: 'https://www.linkedin.com/in/sourabh-kaushik/',
     },
-    { icon: <AiFillGithub />, href: 'https://github.com/sauravhiremath/' },
-    { icon: <AiOutlineTwitter />, href: 'https://twitter.com/sauravmh/' },
+    { icon: <AiFillGithub />, href: 'https://github.com/hpkaushik121/' },
   ]
   return (
     <div className="flex overflow-hidden lg:hidden">
