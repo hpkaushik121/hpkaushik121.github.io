@@ -38,7 +38,7 @@ const Hero = ({ about }) => {
         </div>
         <div className="col-span-1 md:col-span-4 md:space-y-2 flex flex-col md:mt-[12rem]">
           <h1 className="text-[27px] sm:text-[48px] md:text-5xl xl:text-6xl firaCode relative text-gray-800 dark:text-slate-100">
-            <span className="z-20 relative">Work</span>
+            <span className="z-20 relative">Coder</span>
             <div className="absolute bottom-0 z-10 hidden md:flex">
               <Highlighter
                 theme={theme}
@@ -56,7 +56,7 @@ const Hero = ({ about }) => {
             <span className="ml-2 md:ml-4">by Day.</span>
           </h1>
           <h1 className="text-[27px] sm:text-[48px] md:text-5xl xl:text-6xl firaCode relative text-gray-800 dark:text-white">
-            <span className="z-20 relative">Game</span>
+            <span className="z-20 relative">Gamer</span>
             <div className="absolute bottom-0 z-10 hidden md:flex">
               <Highlighter
                 theme={theme}
