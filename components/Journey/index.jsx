@@ -76,8 +76,8 @@ const Index = ({ journey }) => {
             style={{
               background: `${
                 theme && mounted && theme === 'light'
-                  ? 'url(/images/lines-white.png), linear-gradient(rgba(233,233,233,0.3),rgba(233,233,233,0.3))'
-                  : 'url(/images/lines.png), linear-gradient(rgba(2,4,12,0.3), rgba(2,4,12,0.3))'
+                  ? 'url(images/lines-white.png), linear-gradient(rgba(233,233,233,0.3),rgba(233,233,233,0.3))'
+                  : 'url(images/lines.png), linear-gradient(rgba(2,4,12,0.3), rgba(2,4,12,0.3))'
               }`,
             }}
             className="flex z-30 background-lines !bg-repeat flex-col !px-0 rounded-lg w-fit"

@@ -119,7 +119,7 @@ const Hero = () => {
           >
             <Image
               ref={imageRef}
-              src="/images/rocket.png"
+              src="images/rocket.png"
               alt="rocket-image"
               className="hero-img"
             />

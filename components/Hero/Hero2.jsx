@@ -34,7 +34,7 @@ const Hero = ({ about }) => {
     <div className="w-full lg:max-h-[100%] mx-auto bg-fixed !overflow-hidden top-0 py-10 pt-16 max-h-screen rounded-lg min-h-[38rem]">
       <div className="grid relative grid-cols-1 md:grid-cols-6 items-center ">
         <div className="animation-rotate opacity-40 dark:opacity-5 absolute top-[-80%] right-0">
-          <img src="/images/ellipse-white.png" alt="white-ellipse" />
+          <img src="images/ellipse-white.png" alt="white-ellipse" />
         </div>
         <div className="col-span-1 md:col-span-4 md:space-y-2 flex flex-col md:mt-[12rem]">
           <h1 className="text-[27px] sm:text-[48px] md:text-5xl xl:text-6xl firaCode relative text-gray-800 dark:text-slate-100">
@@ -105,7 +105,7 @@ const Hero = ({ about }) => {
             <div className="flex space-x-4 items-center">
               <img
                 alt="andoird profile pic"
-                src="/images/black-android.jpg"
+                src="images/black-android.jpg"
                 className="h-40 w-40 rounded-full cursor-pointer"
                 onClick={throwConfetti}
               />

@@ -17,7 +17,7 @@
         "heading": "Empowering businesses with secure and efficient payment solutions on Android.",
         "description": "Currently researching and redefining payment experiences on Android through advanced development with PayU SDK.",
         "media": {
-          "source": "/images/payu.png",
+          "source": "images/payu.png",
           "is_video": false
         },
         "colors": ["green-900", "green-500", "green-300"],
@@ -34,7 +34,7 @@
         "heading": "Driving digital payment revolution in Africa and the Middle East.",
         "description": "Developing dynamic POS, mPOS, and SoftPOS and extensions for businesses. Probing location, master key/ session Management and Hardware Module(HM) maintanence to provide and improve their transaction journey.",
         "media": {
-          "source": "/images/nownow-logo.svg",
+          "source": "images/nownow-logo.svg",
           "is_video": false
         },
         "colors": ["gray-900","gray-500", "orange-500", "orange-300"],
@@ -51,7 +51,7 @@
         "heading": "Designed a peer-to-peer payment system using NFC",
         "description": "Redesigned and implemented a peer-to-peer payment system using NFC. That payment can be made just touching back panel of devices.",
         "media": {
-          "source": "/images/zeta-logo1.png",
+          "source": "images/zeta-logo1.png",
           "is_video": false
         },
         "colors": ["purple-900", "purple-500", "purple-300"],
@@ -67,7 +67,7 @@
         "heading": "Designed offline navigation system",
         "description": "Designed a Bluetooth Low Eneryg(BLE) based proximity navigation system using triangulation method where we can also know the altitude i.e. on which floor we are on. This method much more accurate then standard GPS has error of 1 meter only ",
         "media": {
-          "source": "/images/isro-logo.png",
+          "source": "images/isro-logo.png",
           "is_video": false
         },
         "colors": ["orange-900","orange-500", "blue-500", "blue-300"],
