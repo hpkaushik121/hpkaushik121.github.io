@@ -1,0 +1,184 @@
+{
+  "about": {
+    "name": "Sourabh Kaushik",
+    "title": "Hi my name is Sourabh",
+    "description": "Pushing the boundaries of Android development for tomorrow's possibilities. A digital Nomad, converting Impossible to I AM Possibile.\u00a0 \u00a0 📍 -->    🇮🇳     \uD83C\uDDE6\uD83C\uDDEA    \uD83C\uDDE6\uD83C\uDDF4    \uD83C\uDDF5\uD83C\uDDF9    \uD83C\uDDEA\uD83C\uDDF9    \uD83C\uDDE7\uD83C\uDDF7    \uD83C\uDDE7\uD83C\uDDED     \uD83C\uDDF3\uD83C\uDDEC ",
+    "headers": [
+      "Coder by Day.",
+      "Gamer by Night.",
+      "and a Full-time Overthinker."
+    ]
+  },
+  "work_experience": {
+    "title": "Work",
+    "experiences": [
+      {
+        "title": "Senior Software Engineer",
+        "heading": "Empowering businesses with secure and efficient payment solutions on Android.",
+        "description": "Currently researching and redefining payment experiences on Android through advanced development with PayU SDK.",
+        "media": {
+          "source": "/images/payu.png",
+          "is_video": false
+        },
+        "colors": ["green-900", "green-500", "green-300"],
+        "tags": [
+          "2022",
+          "Android",
+          "Kotlin",
+          "jetpack compose",
+          "PostgreSQL"
+        ]
+      },
+      {
+        "title": "Senior Software Developer",
+        "heading": "Driving digital payment revolution in Africa and the Middle East.",
+        "description": "Developing dynamic POS, mPOS, and SoftPOS and extensions for businesses. Probing location, master key/ session Management and Hardware Module(HM) maintanence to provide and improve their transaction journey.",
+        "media": {
+          "source": "/images/nownow-logo.svg",
+          "is_video": false
+        },
+        "colors": ["gray-900","gray-500", "orange-500", "orange-300"],
+        "tags": [
+          "2018",
+          "POS",
+          "Android",
+          "kotlin",
+          "Java"
+        ]
+      },
+      {
+        "title": "Zeta Hackathon 2.0",
+        "heading": "Designed a peer-to-peer payment system using NFC",
+        "description": "Redesigned and implemented a peer-to-peer payment system using NFC. That payment can be made just touching back panel of devices.",
+        "media": {
+          "source": "/images/zeta-logo1.png",
+          "is_video": false
+        },
+        "colors": ["purple-900", "purple-500", "purple-300"],
+        "tags": [
+          "2019",
+          "Peer-to-Peer",
+          "Payments",
+          "Zeta Hack 2.0"
+        ]
+      },
+      {
+        "title": "Team Leader Smart India Hackathon (SIH)",
+        "heading": "Designed offline navigation system",
+        "description": "Designed a Bluetooth Low Eneryg(BLE) based proximity navigation system using triangulation method where we can also know the altitude i.e. on which floor we are on. This method much more accurate then standard GPS has error of 1 meter only ",
+        "media": {
+          "source": "/images/isro-logo.png",
+          "is_video": false
+        },
+        "colors": ["orange-900","orange-500", "blue-500", "blue-300"],
+        "tags": [
+          "2018",
+          "BLE",
+          "Navigation",
+          "ISRO"
+        ]
+      }
+    ]
+  },
+  "technologies": {
+    "heading": "Technologies worked with",
+    "frameworks": [
+      { "name": "Kotlin"},
+      { "name": "Java"},
+      { "name": "Python"},
+      { "name": "Android" },
+      { "name": "POS" },
+      { "name": "Kubernetes" },
+      { "name": "Kafka" },
+      { "name": "AWS" },
+      { "name": "Mysql" },
+      { "name": "Postgresql" },
+      { "name": "serverless" },
+      { "name": "Pytorch" }
+
+    ]
+  },
+  "testimonials": [
+    {
+      "name": "AIR 7 in Smart India Hackathon",
+      "company": "ISRO",
+      "description": "Designed a Bluetooth Low Eneryg(BLE)  based proximity navigation system using triangulation method where we can also know the altitude i.e. on which floor we are on. This method much more accurate then standard GPS has error of 1 meter only, Later which was used by Emaar Malls Group LLC in there dubai mall app",
+      "image": "",
+      "hidden": false
+    },
+    {
+      "name": "Zeta Hack 2.0 winner",
+      "company": "Zeta Next-Gen Cards",
+      "description": "Designed a peer-to-peer payment system using NFC. \n\n  Redesigned and implemented a peer-to-peer payment system using NFC. That payment can be made just touching back panel of devices.",
+      "image": "",
+      "hidden": false
+    }
+  ],
+  "journey": [
+    {
+      "type": "Education",
+      "heading": "Guru Gobind Singh Indrprastha University(GGSIPU)",
+      "subheading": "B.Tech in Electronics and communication with specialization in Robotics",
+      "description": "Winner of various national and international hacks",
+      "start": "2015",
+      "end": "2019"
+    },
+    {
+      "type": "Smart India Hackathon '18",
+      "heading": "National level Hack Win",
+      "subheading": "Won prize for developing offline precise naviation system",
+      "description": "",
+      "start": "Mar-2018",
+      "end": "Mar-2018"
+    },
+    {
+      "type": "Junior Developer -> Senior Software Developer",
+      "heading": "NowNow Digital payment Systems",
+      "subheading": "Developing dynamic POS, mPOS, and SoftPOS and extensions for businesses. Probing location, master key/ session Management and Hardware Module(HM) maintanence to provide and improve their transaction journey.",
+      "description": "",
+      "start": "July-2018",
+      "end": "July-2022"
+    },
+    {
+      "type": "Trip",
+      "heading": "First International Trip",
+      "subheading": "Visited my office in Dubai -> Angola -> Nigeria -> portugal->... to Lead the team in  POS development",
+      "description": "",
+      "start": "May-201",
+      "end": "July-2022"
+    },
+    {
+      "type": "SSE",
+      "heading": "PayU Payment Pvt. Ltd.",
+      "subheading": "Senior Software Engineer at PayU. Researching and redefining payment experiences on Android through advanced development with PayU SDK.",
+      "description": "",
+      "start": "May-201",
+      "end": "July-2022"
+    }
+  ],
+  "blogs": [
+  ],
+  "contact": {
+    "email": "hpkaushik121@gmail.com",
+    "description": "Are you looking for a developer who hustles hard but stays humble? A curious soul who bobs their head to any music? An FPS gamer who plays Valorant? A foodie who will venture out for amazing cuisine with you? ✨ If so, do get in touch!",
+    "socials": [
+      {
+        "name": "Github",
+        "link": "https://github.com/hpkaushik121/",
+        "hidden": false
+      },
+      {
+        "name": "Linkedin",
+        "link": "https://www.linkedin.com/in/sourabh-kaushik/",
+        "hidden": false
+      },
+      {
+        "name": "Medium",
+        "link": "https://hpkaushik121.medium.com/",
+        "hidden": false
+      }
+    ],
+    "lastUpdated": "Last Updated June, 2023",
+    "credits": "Made with ❤️"
+  }
+}
