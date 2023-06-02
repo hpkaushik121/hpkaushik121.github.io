@@ -98,7 +98,7 @@ const Hero = ({ about }) => {
         <div className="mt-[-40px] md:mt-[-5rem] col-span-2 md:min-h-[25rem] flex items-center">
           <div className="w-full  flex flex-col ">
             {mounted && (
-              <div className="md:hidden mr-auto flex rotate-[130deg]">
+              <div className="md:hidden mr-auto flex rotate-[167deg] ">
                 <CurvedArrow theme={theme} />
               </div>
             )}
