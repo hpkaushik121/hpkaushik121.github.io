@@ -41,6 +41,11 @@ jobs:
       uses: cicirello/generate-sitemap@v1
       with:
         base-url-path: https://sourabhkaushik.dev/
+    - name: Download Artifacts
+      uses: actions/upload-artifact@v3
+      with:
+          name: sitemap.xml
+          path: ${{ steps.sitemap.outputs.sitemap-path }}
 
     - name: Output stats
       run: |
