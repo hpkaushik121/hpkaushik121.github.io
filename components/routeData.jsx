@@ -1,22 +1,25 @@
 export const routeData = [
   {
-    label: 'My Work',
-    slug: '#work',
+    label: 'Work',
+    slug: '/#work',
   },
   {
     label: 'Technologies',
-    slug: '#technologies',
+    slug: '/#technologies',
   },
   {
     label: 'Achievement',
-    slug: '#testimonials',
+    slug: '/#testimonials',
   },
   {
     label: 'Journey',
-    slug: '#journey',
+    slug: '/#journey',
   },
   {
     label: 'Blogs',
-    slug: '#blogs',
-  },
+    slug: '/#blogs',
+  },{
+        label: 'Gallery',
+        slug: './gallery',
+      }
 ]

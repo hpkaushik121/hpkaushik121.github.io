@@ -62,10 +62,10 @@ const Index = ({ highlightedLink }) => {
                 <li
                   key={i}
                   className={`relative hover:bg-blue-200 ${
-                    highlightedLink === route.slug ? 'dark:bg-gray-700' : 'bg-transparent'
+                    highlightedLink.replace('/','') === route.slug.replace('/','') ? 'dark:bg-gray-700' : 'bg-transparent'
                   } dark:hover:bg-gray-700 px-3 py-2 rounded-md`}
                 >
-                  <Link href={route.slug}>{route.label}</Link>
+                  { highlightedLink.includes('#') ? <Link href={route.slug}>{route.label}</Link> : <a href={route.slug}>{route.label}</a>  }
                 </li>
               ))}
               <li>

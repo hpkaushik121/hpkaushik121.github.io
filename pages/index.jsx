@@ -40,7 +40,7 @@ const Home = () => {
   return (
     <Layout highlightedLink={highlightedLink} contact={contact}>
       <Head>
-        <title>Sourabh Kaushik · Senior Software Engineeri · GGSIPU</title>
+        <title>Sourabh Kaushik · Senior Software Engineer · GGSIPU</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Suspense>
