@@ -105,7 +105,7 @@ const Hero = ({ about }) => {
             <div className="flex space-x-4 items-center">
               <img
                 alt="andoird profile pic"
-                src="images/sourabh_kaushik_profile.jpg"
+                src="images/sourabh_kaushik_profile.jpeg"
                 className="h-40 w-40 rounded-full cursor-pointer"
                 onClick={throwConfetti}
               />
