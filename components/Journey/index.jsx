@@ -19,15 +19,20 @@ const Index = ({ journey }) => {
     'stripe-pattern-violet',
     'stripe-pattern-yellow',
     'stripe-pattern-black',
+    'stripe-pattern-violet',
+    'stripe-pattern-red',
     'stripe-pattern-green',
   ]
-  const shadows = ['#FE6E73', '#9E76FE', '#F9BA5E', '#1D1E24', '#14532d']
+  const shadows = ['#FE6E73', '#9E76FE', '#F9BA5E', '#1D1E24', '#9E76FE', '#FE6E73', '#14532d']
   const positions = [
-    'left-[3rem] md:left-[35.6rem] top-[44rem] min-w-[30rem] md:min-w-[46.8rem]',
-    'left-[10rem] max-w-[10rem] md:left-[45rem] top-[28rem]',
-    'left-[4rem] md:left-[13rem] top-[20rem] max-w-[10rem] md:min-w-[38rem]',
-    'left-[46rem] md:left-[13rem] max-w-[10rem] top-[10rem]',
-    'left-[40rem] md:left-[0rem] max-w-[12rem] top-[2rem]',
+    
+    'left-[35rem] md:left-[50rem] top-[10rem] min-w-[28rem] md:min-w-[46.8rem]',
+    'left-[40rem] max-w-[6rem] md:left-[56rem] top-[15.5rem]',
+    'left-[16rem] md:left-[22rem] top-[2rem] max-w-[27rem] md:max-w-[10rem] md:min-w-[38rem]',
+    'left-[20rem] md:left-[26rem] max-w-[10rem] md:top-[7.5rem] top-[9rem]',
+    'left-[10.4rem] md:left-[11rem] md:max-w-[10rem] max-w-[5.4rem] top-[2rem]',
+    'left-[5rem] md:left-[5rem] max-w-[5rem] top-[2rem]',
+    'left-[0rem] md:left-[0rem] max-w-[4.5rem] top-[2rem]',
   ]
   const journeyRef = useRef()
   useEffect(() => {
@@ -83,7 +88,7 @@ const Index = ({ journey }) => {
             className="flex z-30 background-lines !bg-repeat flex-col !px-0 rounded-lg w-fit"
           >
             <div className="flex min-w-[100%] pt-8 flex-nowrap">
-              {[23, 22, 21, 20, 19, 18, 17, 16, 15, 14].map(yr => (
+              {[24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14].map(yr => (
                 <div className="min-w-[6.5rem] flex justify-center md:min-w-[9.4rem]" key={yr}>
                   <span className="pr-2">{`20${yr}`}</span>
                 </div>
@@ -92,7 +97,7 @@ const Index = ({ journey }) => {
             </div>
             <div
               ref={journeyRef}
-              className="flex flex-nowrap relative w-full p-8 space-x-8 min-h-[55rem]"
+              className="flex flex-nowrap relative w-full p-8 space-x-8 min-h-[35rem]"
             >
               <div
                 style={{
@@ -110,15 +115,13 @@ const Index = ({ journey }) => {
                 >
                   <div
                     style={{ boxShadow: `0 6px 20px -10px ${shadows[i]}` }}
-                    className={`${
-                      i === 0 ? 'p-8' : 'p-4'
-                    } relative group rounded-lg w-full  min-h-[7rem]  ${bgColors[i]}`}
+                    className={`${'p-4'} relative group rounded-lg w-full  min-h-[7rem]  ${bgColors[i]}`}
                   >
                     <h1 className="text-xl md:text-2xl font-bold mb-3">{data.type}</h1>
                     <h1 className="text-base md:text-lmmng font-semibold">{data.heading}</h1>
                     <div
                       className={`text-[#333] dark:text-neutral-300 min-w-[20rem] max-w-[30rem] hidden group-hover:flex z-50 rounded-2xl ${
-                        i === 1 ? 'bottom-[110%]' : 'top-[110%]'
+                        'top-[110%]'
                       } absolute`}
                     >
                       <div className="shadow-lg z-20 rounded-2xl border-2 border-gray-200 dark:border-[#444] dark:bg-[#202120] bg-gray-50 flex relative flex-col p-6  w-full h-full space-y-4">
@@ -143,9 +146,7 @@ const Index = ({ journey }) => {
                             borderTopWidth: '17px',
                             left: 'calc(50% - 20px)',
                           }}
-                          className={`z-[-1] ${
-                            i === 1 ? 'rotate-0 bottom-[-16.5px]' : 'rotate-180  top-[-33px]'
-                          } border-t dark:border-[#444] border-gray-200 absolute w-0 h-0`}
+                          className={`z-[-1] rotate-180  top-[-33px] border-t dark:border-[#444] border-gray-200 absolute w-0 h-0`}
                         ></div>
                       </div>
                     </div>

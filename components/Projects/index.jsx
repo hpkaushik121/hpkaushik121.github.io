@@ -116,7 +116,7 @@ const Projects = ({ workExperience }) => {
             />
           </svg>
         </div>
-        <div className="container bg-fixed mt-[-65vh] rounded-lg lg:py-12 overflow-hidden mx-auto space-y-16">
+        <div className="container bg-fixed mt-[-115vh] rounded-lg lg:py-12 overflow-hidden mx-auto space-y-16">
           {projects.map((project, i) => (
             <>
               <div className="max-w-[30rem] mx-auto md:max-w-full">
@@ -147,9 +147,10 @@ const Projects = ({ workExperience }) => {
 }
 
 const ProjectItem = ({ projectData, i }) => {
+  const { setTheme, resolvedTheme, theme } = useTheme()
   const { title, heading, description, colors, media, tags } = projectData
   const minimal_tags = tags.slice(0, 3)
-  const { source, is_video } = media
+  const { source, is_video , source_theme } = media
   return (
     <>
       <div
@@ -166,10 +167,10 @@ const ProjectItem = ({ projectData, i }) => {
           >
             {is_video && (
               <video autoPlay={true} loop={true} preload="autoplay">
-                <source src={source} type="video/mp4" />
+                <source src={resolvedTheme  && theme === 'light' ? source_theme : source} type="video/mp4" />
               </video>
             )}
-            {!is_video && <Image src={source} alt={title} layout="fill" objectFit="cover" />}
+            {!is_video && <Image src={resolvedTheme  && theme === 'light' ? source_theme : source} alt={title} layout="fill" objectFit="cover" />}
           </div>
           <div
             data-aos="fade-left"
@@ -234,10 +235,10 @@ const ProjectItem = ({ projectData, i }) => {
           >
             {is_video && (
               <video autoPlay={true} loop={true} preload="autoplay">
-                <source src={source} type="video/mp4" />
+                <source src={resolvedTheme  && theme === 'light' ? source_theme : source} type="video/mp4" />
               </video>
             )}
-            {!is_video && <Image src={source} alt={title} layout="fill" />}
+            {!is_video && <Image src={resolvedTheme  && theme === 'light' ? source_theme : source} alt={title} layout="fill" />}
           </div>
           <div
             data-aos="fade-up"
@@ -267,10 +268,10 @@ const ProjectItem = ({ projectData, i }) => {
           >
             {is_video && (
               <video autoPlay={true} loop={true} preload="autoplay">
-                <source src={source} type="video/mp4" />
+                <source src={resolvedTheme  && theme === 'light' ? source_theme : source} type="video/mp4" />
               </video>
             )}
-            {!is_video && <Image src={source} alt={title} layout="fill" objectFit="contain" />}
+            {!is_video && <Image src={resolvedTheme  && theme === 'light' ? source_theme : source} alt={title} layout="fill" objectFit="contain" />}
           </div>
         </div>
         <div className="flex flex-col space-y-5">

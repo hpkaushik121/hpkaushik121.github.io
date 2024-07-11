@@ -1,5 +1,6 @@
 import { useTheme } from 'next-themes'
 import * as si from 'react-icons/si'
+import * as fa from 'react-icons/fa'
 import React, { useEffect, useState } from 'react'
 import { technologies } from '../../portfolio'
 
@@ -8,7 +9,7 @@ const technologies_components_map = {
   Kotlin: si.SiKotlin,
   Android: si.SiAndroid,
   POS: si.SiContactlesspayment,
-  Java: si.SiJava,
+  Java: fa.FaJava,
   GCP: si.SiGooglecloud,
   AWS: si.SiAmazonaws,
   Python: si.SiPython,
@@ -19,6 +20,7 @@ const technologies_components_map = {
   Mysql: si.SiMysql,
   Postgresql: si.SiPostgresql,
   serverless: si.SiServerless,
+  jetpack: si.SiJetpackcompose,
   Pytorch: si.SiPytorch,
 }
 
@@ -84,7 +86,7 @@ const Technology = ({ name, theme, mounted }) => {
                 : 'linear-gradient(rgba(2,4,12,0.5), rgba(2,4,12,0.5))'
             }`,
           }}
-          className="absolute backdrop-blur-lg transition-all duration-500 opacity-0 group-hover:opacity-100 top-[-120px] group-hover:top-[-60px] text-[#222] dark:text-white rounded-lg shadow-md border border-gray-200 dark:border-slate-900 py-2 px-8"
+          className="absolute backdrop-blur-lg transition-all duration-500 opacity-0 group-hover:opacity-100 top-[-120px] group-hover:top-[-20px] text-[#222] dark:text-white rounded-lg shadow-md border border-gray-200 dark:border-slate-900 py-2 px-8"
         >
           {name}
         </div>

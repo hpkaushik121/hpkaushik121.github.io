@@ -121,7 +121,20 @@ const Index = ({ blogs }) => {
 function getPTag( str )
 {
   let doc =new DOMParser().parseFromString(str, 'text/html')
-    return doc.querySelector('p').textContent;
+    let content  =doc.querySelectorAll('p');
+    let desc ="";
+    for (const item in content) {
+      if (Object.hasOwnProperty.call(content, item)) {
+        const element = content[item].textContent;
+        desc = desc+" "+element +"</br>";
+      }
+    }
+    return desc;
+};
+function getIMGTag( str )
+{
+  let doc =new DOMParser().parseFromString(str, 'text/html')
+    return doc.querySelector('img').src;
 };
   return (
     <div className="max-w-[90rem] w-full relative overflow-hidden mx-auto">
@@ -133,13 +146,14 @@ function getPTag( str )
 
       <Slider {...settings} className="flex container justify-center">
         { isLoading ? console.log("Loading") : data?.map(({ title, description, thumbnail, link }, i) => (
-          <div className="w-full px-2" key={title}>
+          <div className="w-full px-2" key={title}  >
             <div className="dark:bg-[#202120] bg-lightGray pb-6 backdrop-blur-lg border-gray-300 rounded-lg border border-transparent dark:border-[#343434] overflow-hidden transition-all duration-500 flex w-full flex-col space-y-4">
               <img
                 data-aos="fade-down"
                 data-aos-duration="500"
                 data-aos-delay={`${i + 1}00`}
-                src={thumbnail}
+                href={link}
+                src={getIMGTag(description)}
                 className="object-cover  min-h-[15rem] max-h-[15rem]"
                 alt="blog-hero-image"
               />

@@ -13,28 +13,63 @@
     "title": "Work",
     "experiences": [
       {
+        "title": "Technical Lead (R&D)",
+        "heading": "Ingenico International Inda Pvt. Ltd.",
+        "description": "Enhancing the commerce experience, with payments solutions that are smarter, more connected, and tailored to drive your success. From advanced payment methods to data insights and partner integration, our solutions add value and help you, and your customers, do more through payments.",
+        "media": {
+          "source": "images/Ingenico-white-RGB.svg",
+          "source_theme": "images/Ingenico-black-RGB.svg",
+          "is_video": false
+        },
+        "colors": ["gray-500", "gray-500", "gray-300"],
+        "tags": [
+          "2024",
+          "POS",
+          "Payments",
+          "jetpack compose"
+        ]
+      },
+      {
+        "title": "Technology Manager",
+        "heading": "Saro Tech solutions Pvt. Ltd.",
+        "description": "Delivering the mission-critical real-time payment software solutions that enable corporations to process and manage digital payments, power omni-commerce payments, present and process bill payments, and manage fraud and risk.",
+        "media": {
+          "source": "images/saro_tech_solutions.png",
+          "source_theme": "images/saro_tech_solutions.png",
+          "is_video": false
+        },
+        "colors": ["blue-900", "blue-500", "blue-300"],
+        "tags": [
+          "2023",
+          "Cards Management",
+          "Payments",
+          "Android SDK"
+        ]
+      },
+      {
         "title": "Senior Software Engineer",
-        "heading": "Empowering businesses with secure and efficient payment solutions on Android.",
+        "heading": "PayU Payment Pvt. Ltd.",
         "description": "Currently researching and redefining payment experiences on Android through advanced development with PayU SDK.",
         "media": {
           "source": "images/payu.png",
+          "source_theme": "images/payu.png",
           "is_video": false
         },
         "colors": ["green-900", "green-500", "green-300"],
         "tags": [
           "2022",
-          "Android",
+          "Android SDK",
           "Kotlin",
-          "jetpack compose",
-          "PostgreSQL"
+          "IntelliJ Plugin"
         ]
       },
       {
         "title": "Senior Software Developer",
-        "heading": "Driving digital payment revolution in Africa and the Middle East.",
-        "description": "Developing dynamic POS, mPOS, and SoftPOS and extensions for businesses. Probing location, master key/ session Management and Hardware Module(HM) maintanence to provide and improve their transaction journey.",
+        "heading": "NowNow Digital payment Systems",
+        "description": "Driving digital payment revolution in Africa and the Middle East.Developing dynamic POS, mPOS, and SoftPOS and extensions for businesses. Probing location, master key/ session Management and Hardware Module(HM) maintanence to provide and improve their transaction journey.",
         "media": {
           "source": "images/nownow-logo.svg",
+          "source_theme": "images/nownow-logo.svg",
           "is_video": false
         },
         "colors": ["gray-900","gray-500", "orange-500", "orange-300"],
@@ -48,10 +83,11 @@
       },
       {
         "title": "Zeta Hackathon 2.0",
-        "heading": "Designed a peer-to-peer payment system using NFC",
+        "heading": "Zeta",
         "description": "Redesigned and implemented a peer-to-peer payment system using NFC. That payment can be made just touching back panel of devices.",
         "media": {
           "source": "images/zeta-logo1.png",
+          "source_theme": "images/zeta-logo1.png",
           "is_video": false
         },
         "colors": ["purple-900", "purple-500", "purple-300"],
@@ -64,10 +100,11 @@
       },
       {
         "title": "Team Leader Smart India Hackathon (SIH)",
-        "heading": "Designed offline navigation system",
+        "heading": "ISRO",
         "description": "Designed a Bluetooth Low Eneryg(BLE) based proximity navigation system using triangulation method where we can also know the altitude i.e. on which floor we are on. This method much more accurate then standard GPS has error of 1 meter only ",
         "media": {
           "source": "images/isro-logo.png",
+          "source_theme": "images/isro-logo.png",
           "is_video": false
         },
         "colors": ["orange-900","orange-500", "blue-500", "blue-300"],
@@ -84,6 +121,7 @@
     "heading": "Technologies worked with",
     "frameworks": [
       { "name": "Kotlin"},
+      { "name": "jetpack"},
       { "name": "Java"},
       { "name": "Python"},
       { "name": "Android" },
@@ -128,39 +166,55 @@
       "heading": "National level Hack Win",
       "subheading": "Won prize for developing offline precise naviation system",
       "description": "",
-      "start": "Mar-2018",
-      "end": "Mar-2018"
+      "start": "2018",
+      "end": "2018"
     },
     {
       "type": "Junior Developer -> Senior Software Developer",
       "heading": "NowNow Digital payment Systems",
       "subheading": "Developing dynamic POS, mPOS, and SoftPOS and extensions for businesses. Probing location, master key/ session Management and Hardware Module(HM) maintanence to provide and improve their transaction journey.",
       "description": "",
-      "start": "July-2018",
-      "end": "July-2022"
+      "start": "2018",
+      "end": "2022"
     },
     {
       "type": "Trip",
       "heading": "First International Trip",
       "subheading": "Visited my office in Dubai -> Angola -> Nigeria -> portugal->... to Lead the team in  POS development",
       "description": "",
-      "start": "May-201",
-      "end": "July-2022"
+      "start": "2021",
+      "end": "2022"
     },
     {
       "type": "SSE",
       "heading": "PayU Payment Pvt. Ltd.",
       "subheading": "Senior Software Engineer at PayU. Researching and redefining payment experiences on Android through advanced development with PayU SDK.",
       "description": "",
-      "start": "May-201",
-      "end": "July-2022"
+      "start": "2022",
+      "end": "2023"
+    },
+    {
+      "type": "Tech Manager",
+      "heading": "Saro Tech solutions Pvt. Ltd.",
+      "subheading": "",
+      "description": "",
+      "start": "2023",
+      "end": "2024"
+    },
+    {
+      "type": "TL",
+      "heading": "Ingenico International Inda Pvt. Ltd.",
+      "subheading": "Technical Lead (R&D) at Ingenico. We’re enhancing the commerce experience, with payments solutions that are smarter, more connected, and tailored to drive your success. From advanced payment methods to data insights and partner integration, our solutions add value and help you, and your customers, do more through payments.",
+      "description": "",
+      "start": "June-2024",
+      "end": ""
     }
   ],
   "blogs": [
   ],
   "contact": {
     "email": "hpkaushik121@gmail.com",
-    "description": "Are you looking for a developer who hustles hard but stays humble? A curious soul who bobs their head to any music? An FPS gamer who plays Valorant? A foodie who will venture out for amazing cuisine with you? ✨ If so, do get in touch!",
+    "description": "Are you looking for a developer who hustles hard but stays humble? A curious soul who bobs their head to any music? An FPS gamer who plays BGM? A foodie who will venture out for amazing cuisine with you? ✨ If so, do get in touch!",
     "socials": [
       {
         "name": "Github",
@@ -178,7 +232,7 @@
         "hidden": false
       }
     ],
-    "lastUpdated": "Last Updated June, 2023",
+    "lastUpdated": "Last Updated July, 2024",
     "credits": "Made with ❤️"
   }
 }
