@@ -17,9 +17,14 @@
   <changefreq>monthly</changefreq>
       <priority>1.0</priority>
 </url>
-
 <url>
-  <loc>https://sourabhkaushik.dev/ingo/Sourabh%20Kaushik.jpeg</loc>
+  <loc>https://sourabhkaushik.dev/gallery</loc>
+  <lastmod>2024-07-111T11:54:34+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+</url>
+<url>
+  <loc>https://sourabhkaushik.dev/info/Sourabh%20Kaushik.jpeg</loc>
   <lastmod>2024-07-111T11:54:34+00:00</lastmod>
   <changefreq>monthly</changefreq>
       <priority>1.0</priority>
