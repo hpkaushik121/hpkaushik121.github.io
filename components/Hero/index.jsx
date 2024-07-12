@@ -58,7 +58,7 @@ const Hero = () => {
               data-aos-duration="800"
               className="text-lg font-bold max-w-[95%] md:text-xl lg:text-2xl md:max-w-[30rem] dark:text-darkThemeTextColor"
             >
-              I am a Senior Software Engineer @PayU.
+              I am a Technical Lead @ Ingenico Internation India Pvt Ltd.
             </p>
             {/* <h2
                             data-aos="fade-down"
