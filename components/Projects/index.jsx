@@ -116,7 +116,7 @@ const Projects = ({ workExperience }) => {
             />
           </svg>
         </div>
-        <div className="container bg-fixed mt-[-95vh] md:mt-[-115vh] rounded-lg lg:py-12 overflow-hidden mx-auto space-y-16">
+        <div className="container bg-fixed mt-[-75vh] md:mt-[-85vh] rounded-lg lg:py-12 overflow-hidden mx-auto space-y-16">
           {projects.map((project, i) => (
             <>
               <div className="max-w-[30rem] mx-auto md:max-w-full">
