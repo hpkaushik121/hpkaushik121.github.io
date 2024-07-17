@@ -8,16 +8,25 @@ import Journey from '../components/Journey'
 import { Suspense, useEffect, useState } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import { gtag, install,initDataLayer } from 'ga-gtag';
+
 import Brands from '../components/Technologies'
 import { about, blogs, contact, journey, testimonials, workExperience } from '../portfolio'
 
 const Home = () => {
   const [offset, setOffset] = useState(0)
+ 
+
   typeof window != 'undefined' &&
     window.addEventListener('scroll', () => {
       window.pageYOffset < 100 && setOffset(window.pageYOffset)
     })
   useEffect(() => {
+    initDataLayer();
+    gtag('js', new Date());
+
+    gtag('config', 'AW-16645644521');
+    install('AW-16645644521'); 
     AOS.init()
     AOS.refresh({
       duration: 500,
@@ -38,11 +47,13 @@ const Home = () => {
     }
   }, [lastYPos])
   return (
+    
     <Layout highlightedLink={highlightedLink} contact={contact}>
       <Head>
         <title>Sourabh Kaushik · Tech Lead · Payments Expert · Android</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <Suspense>
         <section id="home" className="container mx-auto">
           {/* <Hero /> */}

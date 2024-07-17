@@ -180,6 +180,11 @@
   dependencies:
     tslib "^2.4.0"
 
+"@types/gtag.js@^0.0.20":
+  version "0.0.20"
+  resolved "https://registry.npmjs.org/@types/gtag.js/-/gtag.js-0.0.20.tgz"
+  integrity sha512-wwAbk3SA2QeU67unN7zPxjEHmPmlXwZXZvQEpbEUQuMCRGgKyE1m6XDuTUA9b6pCGb/GqJmdfMOY5LuDjJSbbg==
+
 "@types/json5@^0.0.29":
   version "0.0.29"
   resolved "https://registry.npmjs.org/@types/json5/-/json5-0.0.29.tgz"
@@ -1537,6 +1542,11 @@ functions-have-names@^1.2.2:
   version "1.2.3"
   resolved "https://registry.npmjs.org/functions-have-names/-/functions-have-names-1.2.3.tgz"
   integrity sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==
+
+ga-gtag@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.npmjs.org/ga-gtag/-/ga-gtag-1.2.0.tgz"
+  integrity sha512-j9gxutMdpGMdwaX1SzOG31Ddm+IGFjeNf+N3Z5g+BBpS8FSXOALlrM+ORIGc/QKszGJEDlw+6PfIsJZICsqsGQ==
 
 get-intrinsic@^1.0.2, get-intrinsic@^1.1.0, get-intrinsic@^1.1.1:
   version "1.1.2"
