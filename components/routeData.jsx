@@ -22,4 +22,9 @@ export const routeData = [
         label: 'Gallery',
         slug: './gallery',
       }
+      ,
+  {
+    label: 'Faq',
+    slug: './faq',
+  }
 ]

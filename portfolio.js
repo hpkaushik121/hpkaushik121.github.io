@@ -33,4 +33,4 @@ export const testimonials = current_locale.testimonials.map(
   },
 )
 
-export const { journey, blogs, contact } = current_locale
+export const { journey, blogs, faq, contact } = current_locale

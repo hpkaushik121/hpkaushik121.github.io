@@ -212,6 +212,32 @@
   ],
   "blogs": [
   ],
+  "faq": {
+
+    "title": "FAQ",
+    "rows":[
+    
+    {
+      "title": "Who is Sourabh Kaushik?",
+      "content": "Sourabh Kaushik is a Technical Lead specializing in Android development and payment systems."
+    },
+    {
+      "title": "What are Sourabh's key achievements?",
+      "content": "Winner of Zeta Hack 2.0 for designing a peer-to-peer payment system using NFC. <br />Achieved AIR 7 in Smart India Hackathon for developing a BLE-based proximity navigation system."
+    },
+    {
+      "title": "What technologies has Sourabh worked with?",
+      "content": "Kotlin, Jetpack, Java, Python, Android, POS systems, Kubernetes, Kafka, AWS, and more."
+    },
+    {
+      "title": "Where has Sourabh worked previously?",
+      "content": "Senior Software Engineer at PayU Payment Pvt. Ltd. <br />Technical Lead at Ingenico International India Pvt. Ltd."
+    },
+    {
+      "title": "How can I contact Sourabh?",
+      "content":"You can reach Sourabh via email at <Link href=\"mailto:hpkaushik121@gmail.com\">hpkaushik121@gmail.com</Link> or connect through his social media profiles: <br /><Link href=\"https://github.com/hpkaushik121\">GitHub</Link><br /><Link href=\"https://hpkaushik121.medium.com\">Medium</Link><br /><Link href=\"https://www.linkedin.com\">LinkedIn</Link>"
+    }
+  ]},
   "contact": {
     "email": "hpkaushik121@gmail.com",
     "description": "Are you looking for a developer who hustles hard but stays humble? A curious soul who bobs their head to any music? An FPS gamer who plays BGM? A foodie who will venture out for amazing cuisine with you? ✨ If so, do get in touch!",
